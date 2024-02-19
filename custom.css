@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Catamaran&family=Grand+Hotel&display=swap");
+
+:root {
+  --clr-primary: #668833;
+  --clr-primary-light: #bbcca4;
+  --clr-grey-1: #102a42;
+  --clr-grey-5: #617d98;
+  --clr-grey-10: #f1f5f8;
+  --clr-white: #ffffff;
+  --ff-primary: "Catamaran";
+  --ff-secondary: "Grand Hotel";
+  --spacing: 0.5rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--ff-primary);
+  color: var(--clr-grey-1);
+  background-color: var(--clr-white);
+  line-height: 1.5;
+  /* font-size: 0.875rem; */
+}
+
+a {
+  text-decoration: none;
+  background: var(--clr-primary);
+  color: var(--clr-white);
+  font-size: 1rem;
+  letter-spacing: 0.5rem;
+  text-transform: uppercase;
+  padding: 0.5rem 0.75rem;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  letter-spacing: var(--spacing);
+  text-transform: capitalize;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.5rem;
+}
+h4 {
+  font-size: 0.875rem;
+}
+
+header {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(images/main-bcg.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+header section h2 {
+  color: var(--clr-primary);
+  font-family: var(--ff-secondary);
+  font-size: 2.5rem;
+  text-transform: capitalize;
+}
+
+header section h1 {
+  color: var(--clr-white);
+  font-family: var(--ff-primary);
+  font-size: 4rem;
+  letter-spacing: var(--spacing);
+  text-transform: uppercase;
+  max-width: 42rem;
+  margin-bottom: 2.5rem;
+}
+
+.elvalaszto {
+  background: linear-gradient(
+    0.25turn,
+    var(--clr-primary),
+    var(--clr-primary-light),
+    var(--clr-primary)
+  );
+  height: 0.5rem;
+}
+
+.tulajdonsagok {
+  background: var(--clr-grey-10);
+  /* background: var(--clr-magyar); */
+  padding: 4rem 0;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.tulajdonsag i {
+  color: var(--clr-primary);
+  font-size: 2.5rem;
+  padding-bottom: 1rem;
+}
+
+.tulajdonsag p {
+  color: var(--clr-grey-5);
+  max-width: 17rem;
+  margin: 0 auto;
+}
+
+.bemutatkozas {
+  margin: 4rem;
+  display: flex;
+  justify-content: center;
+}
+
+.bemutatkozas {
+  margin: 4rem auto;
+  width: 85rem;
+}
+
+.bemutatkozas article {
+  margin: 0 5rem;
+}
+
+.bemtext h3 {
+  font-family: var(--ff-secondary);
+  letter-spacing: var(--spacing);
+  color: var(--clr-primary);
+}
+
+.bemtext h2 {
+  font-family: var(--ff-primary);
+  color: var(--clr-grey-1);
+  letter-spacing: var(--spacing);
+  text-transform: capitalize;
+}
+
+.bemtext p {
+  padding: 1rem 0;
+  max-width: 25rem;
+}
+
+.bemkep {
+  background: var(--clr-primary);
+  padding: 0.5rem;
+  max-width: 30rem;
+}
+
+.termekeink {
+  background-color: var(--clr-grey-10);
+  margin: 4rem 0;
+}
+
+.termtext h3 {
+  color: var(--clr-primary);
+  font-family: var(--ff-secondary);
+  letter-spacing: var(--spacing);
+  text-transform: capitalize;
+}
+
+.termtext h2 {
+    letter-spacing: var(--spacing);
+    padding-bottom: 1rem;
+}
+
+.termtext p {
+    max-width: 30rem;
+}
+
+.termkep img {
+    width: 30rem;
+    border-radius: 5%;
+}
