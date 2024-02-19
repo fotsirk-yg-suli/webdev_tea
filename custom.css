@@ -33,7 +33,7 @@ a {
   font-size: 1rem;
   letter-spacing: 0.5rem;
   text-transform: uppercase;
-  padding: 0.5rem 0.75rem;
+  padding: 0.75rem;
 }
 
 img {
@@ -139,6 +139,7 @@ header section h1 {
 
 .bemutatkozas article {
   margin: 0 5rem;
+  background-color: var(--clr-grey-10);
 }
 
 .bemtext h3 {
@@ -168,6 +169,8 @@ header section h1 {
 .termekeink {
   background-color: var(--clr-grey-10);
   margin: 4rem 0;
+  display: flex;
+  gap: 1rem;
 }
 
 .termtext h3 {
@@ -178,15 +181,43 @@ header section h1 {
 }
 
 .termtext h2 {
-    letter-spacing: var(--spacing);
-    padding-bottom: 1rem;
+  letter-spacing: var(--spacing);
+  padding-bottom: 1rem;
 }
 
 .termtext p {
-    max-width: 30rem;
+  max-width: 30rem;
 }
 
 .termkep img {
-    width: 30rem;
-    border-radius: 5%;
+  width: 30rem;
+  border-radius: 5%;
+}
+
+.szolgaltatasok {
+  display: flex;
+}
+
+.szoltext h3 {
+  color: var(--clr-primary);
+  font-family: var(--ff-secondary);
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: var(--spacing);
+  padding-bottom: 0.5rem;
+}
+
+.szoltext h2 {
+  text-align: center;
+  letter-spacing: var(--spacing);
+  padding-bottom: 0.5rem;
+}
+
+.szolbox {
+  text-align: center;
+  width: 30rem;
+}
+
+.szolbox img {
+  border-radius: 5%;
 }
